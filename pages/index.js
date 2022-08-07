@@ -113,6 +113,7 @@ const Index = () => (
         src="https://assets.vercel.com/image/upload/v1538361091/repositories/next-js/next-js-bg.png"
         width={1200}
         height={400}
+        
       />
       <hr className={styles.hr} />
       <h2 id="more">Saiba mais</h2>
@@ -120,9 +121,9 @@ const Index = () => (
         Opcionalmente, você pode configurar um provedor de nuvem, tamanhos de dispositivos e muito mais!
       </p>
       <p>
-        Confira a página{' '}
+        Confira a {' '}
         <a href="https://nextjs.org/docs/basic-features/image-optimization">
-          Documentação da Otimização do componente Image
+          documentação oficial do componente Image
         </a>{' '}
         para aprender mais.
       </p>
