@@ -23,9 +23,9 @@ const toBase64 = (str) =>
 const Shimmer = () => (
   <div>
     <ViewSource pathname="pages/shimmer.js" />
-    <h1>Image Component With Shimmer Data URL</h1>
+    <h1>Componente Image com Shimmer Data URL</h1>
     <Image
-      alt="Mountains"
+      alt="montanhas"
       src="/mountains.jpg"
       placeholder="blur"
       blurDataURL={`data:image/svg+xml;base64,${toBase64(shimmer(700, 475))}`}

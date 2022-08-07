@@ -7,7 +7,7 @@ const Background = () => (
     <ViewSource pathname="pages/background.js" />
     <div className={bgWrap}>
       <Image
-        alt="Mountains"
+        alt="montanhas"
         src="/mountains.jpg"
         layout="fill"
         objectFit="cover"
@@ -15,9 +15,9 @@ const Background = () => (
       />
     </div>
     <p className={bgText}>
-      Image Component
+      Componente Image
       <br />
-      as a Background
+      usado como Background
     </p>
   </div>
 )

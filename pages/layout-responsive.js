@@ -5,9 +5,9 @@ import mountains from '../public/mountains.jpg'
 const Responsive = () => (
   <div>
     <ViewSource pathname="pages/layout-responsive.js" />
-    <h1>Image Component With Layout Responsive</h1>
+    <h1>Componente Image com layout=responsive</h1>
     <Image
-      alt="Mountains"
+      alt="montanhas"
       src={mountains}
       layout="responsive"
       width={700}

@@ -10,30 +10,28 @@ const Index = () => (
   <div className={styles.container}>
     <ViewSource pathname="pages/index.js" />
     <div className={styles.card}>
-      <h1>Image Component with Next.js</h1>
+      <h1>Componente Image com Next.js</h1>
       <p>
-        This page demonstrates the usage of the{' '}
+      Esta página demonstra o uso do componente{' '}
         <a href="https://nextjs.org/docs/api-reference/next/image">
           next/image
         </a>{' '}
-        component with live examples.
+        com exemplos ao vivo.
       </p>
       <p>
-        This component is designed to{' '}
+      Este componente é projetado para{' '}
         <a href="https://nextjs.org/docs/basic-features/image-optimization">
-          automatically optimize
+          otimizar automaticamente
         </a>{' '}
-        images on-demand as the browser requests them.
+        as imagens sob demanda conforme o navegador as solicita.
       </p>
       <hr className={styles.hr} />
       <h2 id="layout">Layout</h2>
       <p>
-        The <Code>layout</Code> property tells the image to respond differently
-        depending on the device size or the container size.
+        A propriedade <Code>layout</Code>  diz à imagem para responder de forma diferente dependendo do tamanho do dispositivo ou do tamanho do container.
       </p>
       <p>
-        Select a layout below and try resizing the window or rotating your
-        device to see how the image reacts.
+       Selecione um layout abaixo e tente redimensionar a janela ou girar seu dispositivo para ver como a imagem reage.
       </p>
       <ul>
         <li>
@@ -65,16 +63,13 @@ const Index = () => (
       <hr className={styles.hr} />
       <h2 id="placeholder">Placeholder</h2>
       <p>
-        The <Code>placeholder</Code> property tells the image what to do while
-        loading.
+        A propriedade <Code>placeholder</Code> informa à imagem o que fazer durante o carregamento.
       </p>
       <p>
-        You can optionally enable a blur-up placeholder while the high
-        resolution image loads.
+      Opcionalmente, você pode ativar um placeholder desfocado enquanto a imagem de alta resolução é carregada.
       </p>
       <p>
-        Try it out below (you may need to disable cache in dev tools to see the
-        effect if you already visited):
+      Experimente abaixo (talvez seja necessário desabilitar o cache nas ferramentas de desenvolvimento para ver o efeito caso você ja visite o link):
       </p>
       <ul>
         <li>
@@ -84,35 +79,34 @@ const Index = () => (
         </li>
         <li>
           <Link href="/shimmer">
-            <a>placeholder="blur" with animated shimmer blurDataURL</a>
+            <a>placeholder="blur" com brilho animado blurDataURL</a>
           </Link>
         </li>
         <li>
           <Link href="/color">
-            <a>placeholder="blur" with solid color blurDataURL</a>
+            <a>placeholder="blur" com cor sólida blurDataURL</a>
           </Link>
         </li>
       </ul>
       <hr className={styles.hr} />
-      <h2 id="internal">Internal Image</h2>
+      <h2 id="internal">Imagem interna</h2>
       <p>
-        The following is an example of a reference to an internal image from the{' '}
-        <Code>public</Code> directory.
+        Veja a seguir um exemplo de referência a uma imagem interna do diretório{' '}
+        <Code>public</Code>.
       </p>
       <p>
-        This image is intentionally large so you have to scroll down to the next
-        image.
+       Esta imagem é intencionalmente grande, então você precisa rolar para baixo até a próxima imagem.
       </p>
       <Image alt="Vercel logo" src={vercel} width={1000} height={1000} />
       <hr className={styles.hr} />
-      <h2 id="external">External Image</h2>
+      <h2 id="external">Imagem externa</h2>
       <p>
-        The following is an example of a reference to an external image at{' '}
+        Veja a seguir um exemplo de referência a uma imagem externa disponível em{' '}
         <Code>assets.vercel.com</Code>.
       </p>
       <p>
-        External domains must be configured in <Code>next.config.js</Code> using
-        the <Code>domains</Code> property.
+        Os domínios externos devem ser configurados no arquivo <Code>next.config.js</Code> utilizando
+        a propriedade <Code>domains</Code>.
       </p>
       <Image
         alt="Next.js logo"
@@ -121,16 +115,16 @@ const Index = () => (
         height={400}
       />
       <hr className={styles.hr} />
-      <h2 id="more">Learn More</h2>
+      <h2 id="more">Saiba mais</h2>
       <p>
-        You can optionally configure a cloud provider, device sizes, and more!
+        Opcionalmente, você pode configurar um provedor de nuvem, tamanhos de dispositivos e muito mais!
       </p>
       <p>
-        Checkout the{' '}
+        Confira a página{' '}
         <a href="https://nextjs.org/docs/basic-features/image-optimization">
-          Image Optimization documentation
+          Documentação da Otimização do componente Image
         </a>{' '}
-        to learn more.
+        para aprender mais.
       </p>
     </div>
   </div>

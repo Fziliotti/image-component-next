@@ -1,29 +1,31 @@
-# Image Component Example
+Esse repositório é uma tradução do exemplo do [componente Image do Next.js](https://github.com/vercel/next.js/tree/canary/examples/image-component)
 
-This example shows how to use the [Image Component in Next.js](https://nextjs.org/docs/api-reference/next/image) serve optimized, responsive images.
+# Componente Image - Projeto Exemplo
 
-The index page ([`pages/index.js`](pages/index.js)) has a couple images, one internal image and one external image. In [`next.config.js`](next.config.js), the `domains` property is used to enable external images. The other pages demonstrate the different layouts. Run or deploy the app to see how it works!
+Esse exemplo mostra como utilizar o [componente Image do Next.js](https://nextjs.org/docs/api-reference/next/image) servindo imagens otimizadas e responsivas.
+
+A página principal ([`pages/index.js`](pages/index.js)) possui algumas imagens, uma imagem interna e outra externa. No arquivo [`next.config.js`](next.config.js), a propriedade `domains` é usada para habilitar imagens externas. As outras páginas demonstram os layouts diferentes. Execute ou faça deploy da aplicação para entender como isso funciona! 
 
 ## Live demo
 
 [https://image-component.nextjs.gallery/](https://image-component.nextjs.gallery/)
 
-## Deploy your own
+## Faça o seu próprio deploy
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/image-component)
+Faça deploy do exemplo oficial em [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) ou veja uma prévia em [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/image-component)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/image-component&project-name=image-component&repository-name=image-component)
 
-## How to use
+## Como utilizar
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) com [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), ou [pnpm](https://pnpm.io) para inicializar o exemplo:
 
 ```bash
-npx create-next-app --example image-component image-app
+npx create-next-app --example image-component imagem-app
 # or
-yarn create next-app --example image-component image-app
+yarn create next-app --example image-component imagem-app
 # or
-pnpm create next-app --example image-component image-app
+pnpm create next-app --example image-component imagem-app
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Faça deploy para a nuvem com [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentação](https://nextjs.org/docs/deployment)).

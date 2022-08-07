@@ -5,9 +5,9 @@ import mountains from '../public/mountains.jpg'
 const Intrinsic = () => (
   <div>
     <ViewSource pathname="pages/layout-intrinsic.js" />
-    <h1>Image Component With Layout Intrinsic</h1>
+    <h1>Componente Image com layout=intrinsic</h1>
     <Image
-      alt="Mountains"
+      alt="Montanhas"
       src={mountains}
       layout="intrinsic"
       width={700}
